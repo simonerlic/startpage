@@ -58,10 +58,9 @@ function initSearchBar(jsonData) {
         searchEngine = "Google"
     }
     searchUrl = this.searchEngines[searchEngine]
-    document.getElementById(searchBarId).placeholder = `Search something on ${searchEngine}`
+    document.getElementById(searchBarId).placeholder = ``
     document.getElementById(searchBarId).addEventListener("keypress", (event) => {
         if (event.key != 'Enter') return
-
         // Open google with the search results.
         query = document.getElementById(searchBarId).value
         if (query == "--setting") {

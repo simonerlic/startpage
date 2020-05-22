@@ -14,8 +14,8 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  background: #212121;
-  color: #fff; }
+  background: #2E3440;
+  color: #ECEFF4 }
 
 .main {
   width: 100%;
@@ -25,7 +25,7 @@ body {
     display: inline-block;
     vertical-align: top; }
   .main #date-text, .main #weather-text {
-    color: #d9d9d9; }
+    color: #ECEFF4; }
   .main #message-text {
     font-size: 23px; }
   .main #search-bar {
@@ -36,18 +36,19 @@ body {
     .main #search-bar input {
       height: inherit;
       width: 100%;
-      background: #2e2e2e;
+      background: #2E3440;
       box-shadow: none;
-      border: none;
+      border: 2px solid #4C566A;
       text-align: center;
       border-radius: 6px;
       outline: none;
       padding: 7px 14px;
       font-size: 18px;
-      color: #fff; }
+      color: #D8DEE9; }
       .main #search-bar input:focus {
         box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
-        transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1); }
+        background: #3B4252;
+        transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);  }
     @media only screen and (max-width: 791px) {
       .main #search-bar {
         width: 65%; } }
@@ -59,7 +60,7 @@ body {
       display: inline-block;
       margin: 5px;
       width: 170px;
-      background: #2e2e2e;
+      background: #434C5E;
       padding: 15px 15px;
       border-radius: 6px;
       min-height: 150px; }
@@ -70,14 +71,14 @@ body {
         box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
         transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1); }
       .main #other-content .sqr a {
-        color: #9E9E9E;
+        color: #E5E9F0;
         font-size: 16px;
         transition: .1s ease-in;
         display: block;
         text-decoration: none;
         line-height: 22px; }
         .main #other-content .sqr a:hover {
-          color: #fff;
+          color: #ECEFF4;
           text-decoration: none;
           transition: .1s ease-in; }
     .main #other-content .media h4, .main #other-content .media a:hover {
@@ -97,7 +98,7 @@ body {
     .main #other-content .indigo h4, .main #other-content .indigo a:hover {
       color: #7986CB; }
     .main #other-content .foxxy h4, .main #other-content .foxxy a:hover {
-      color: #A1887F; }
+      color: #D8DEE9; }
 
 .settings-modal {
   display: none;
@@ -106,14 +107,14 @@ body {
   width: 80vw;
   height: 80vh;
   overflow: auto;
-  background: #fff;
-  color: #212121;
+  background: #ECEFF4;
+  color: #2E3440;
   padding: 15px; }
   .settings-modal .modal-content {
     width: 100%;
     height: 100%; }
   .settings-modal .close {
-    color: #aaa;
+    color: #E5E9F0;
     float: right;
     font-size: 28px;
     font-weight: bold; }

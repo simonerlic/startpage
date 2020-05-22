@@ -32,13 +32,13 @@
   ],
   "searchEngine":"DuckDuckGo",
   "user": "Simon",
-  "disableMessage": false,
+  "disableMessage": true,
   "disableDate": false,
   "disableSearchBar": false,
-  "disable24Hour": false,
+  "disable24Hour": true,
   "disableWeather": false,
   "weatherConf": {
-    "location": "Victoria Canada",
+    "location": "Victoria, CA",
     "unit": "cel"
   }
 }
