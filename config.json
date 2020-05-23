@@ -7,7 +7,7 @@
         { "name": "Prime Video", "url": "https://primevideo.com/" }
       ]
     },
-    { "name": "School", "links": [
+    { "name": "school", "links": [
         { "name": "UVic", "url": "https://uvic.ca/" },
         { "name": "CourseSpaces", "url": "https://coursespaces.uvic.ca/" },
         { "name": "ConneX", "url": "https://connex.csc.uvic.ca/" },
