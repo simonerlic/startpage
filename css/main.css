@@ -14,7 +14,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  background: #2E3440;
+  background: #333333;
   color: #ECEFF4 }
 
 .main {
@@ -36,9 +36,9 @@ body {
     .main #search-bar input {
       height: inherit;
       width: 100%;
-      background: #2E3440;
+      background: #373737;
       box-shadow: none;
-      border: 2px solid #4C566A;
+      border: 2px solid #373737;
       text-align: center;
       border-radius: 6px;
       outline: none;
@@ -47,7 +47,7 @@ body {
       color: #D8DEE9; }
       .main #search-bar input:focus {
         box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
-        background: #3B4252;
+        background: #373737;
         transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);  }
     @media only screen and (max-width: 791px) {
       .main #search-bar {
@@ -60,7 +60,7 @@ body {
       display: inline-block;
       margin: 5px;
       width: 170px;
-      background: #434C5E;
+      background: #373737;
       padding: 15px 15px;
       border-radius: 6px;
       min-height: 150px; }
@@ -108,7 +108,7 @@ body {
   height: 80vh;
   overflow: auto;
   background: #ECEFF4;
-  color: #2E3440;
+  color: #333333;
   padding: 15px; }
   .settings-modal .modal-content {
     width: 100%;
