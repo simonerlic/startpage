@@ -8,9 +8,9 @@
       ]
     },
     { "name": "school", "links": [
-        { "name": "UVic", "url": "https://uvic.ca/" },
+        { "name": "UVic Home", "url": "https://uvic.ca/" },
         { "name": "CourseSpaces", "url": "https://coursespaces.uvic.ca/" },
-        { "name": "ConneX", "url": "https://connex.csc.uvic.ca/" },
+        { "name": "BrightSpace", "url": "https://bright.uvic.ca/" },
         { "name": "Google Drive", "url": "https://drive.google.com/" }
       ]
     },
